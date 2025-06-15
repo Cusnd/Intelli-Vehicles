@@ -37,6 +37,8 @@ public class LogServiceImpl implements LogService {
 
         queryWrapper.orderByDesc("create_time");
 
+
+
         return logMapper.selectPage(pageInfo, queryWrapper);
     }
 
@@ -64,7 +66,7 @@ public class LogServiceImpl implements LogService {
         log.setIpAddress(ipAddress);
         log.setCreateTime(LocalDateTime.now());
 
-        // 异步记录日志，避免影响主业务
+        // 考虑采取异步日志记录，防止其影响业务主功能
         try {
             saveLog(log);
         } catch (Exception e) {

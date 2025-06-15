@@ -1,9 +1,0 @@
-com.zephyrover.vehicles
-com.zephyrover.vehicles.common
-com.zephyrover.vehicles.config
-com.zephyrover.vehicles.controller
-com.zephyrover.vehicles.entity
-com.zephyrover.vehicles.mapper
-com.zephyrover.vehicles.service
-com.zephyrover.vehicles.service.impl
-com.zephyrover.vehicles.util
