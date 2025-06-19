@@ -219,17 +219,6 @@ const request = axios.create({
 
 ## 🔍 测试
 
-### 后端测试
-```bash
-cd backend/vehicles
-mvn test
-```
-
-### 前端测试
-```bash
-cd frontend
-npm run test
-```
 
 ### API测试
 可以使用以下工具测试API：
